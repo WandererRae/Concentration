@@ -5,6 +5,7 @@
 //  Created by Shannon on 3/2/18.
 //  Copyright © 2018 Shannon. All rights reserved.
 //
+//  In which the GM sets up the game
 
 import UIKit
 
@@ -22,6 +23,7 @@ class ViewController: UIViewController {
         }
     }
     
+    @IBOutlet weak var newGameButton: UIButton!
     
     @IBOutlet private var cardButtons: [UIButton]!
     
@@ -65,7 +67,7 @@ class ViewController: UIViewController {
         }
     }
     
-    private var emojiChoices = "🐯🐺🦄🦕🐉🐿🐬🐒"
+    private var emojiChoices = "🐯🐺🦄🦕🐉🐿🐬🐒🐳🐥🦅"
     
     private var emoji = [Card:String]()
     

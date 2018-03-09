@@ -142,7 +142,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYf-Ih-ygV">
                                                 <rect key="frame" x="0.0" y="0.0" width="109" height="140.33333333333334"/>
                                                 <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                 <state key="normal">
                                                     <color key="titleShadowColor" red="0.56179571149999996" green="0.49507415290000001" blue="0.42821496730000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -177,8 +177,12 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="w1q-qO-Wjo">
                                         <rect key="frame" x="0.0" y="593.66666666666663" width="343" height="140.33333333333337"/>
                                         <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4a-pp-o0a">
+                                                <rect key="frame" x="0.0" y="0.0" width="167.66666666666666" height="140.33333333333334"/>
+                                                <state key="normal" title="New Game"/>
+                                            </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flips: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5b-oF-Gxj">
-                                                <rect key="frame" x="0.0" y="0.0" width="343" height="140.33333333333334"/>
+                                                <rect key="frame" x="175.66666666666663" y="0.0" width="167.33333333333337" height="140.33333333333334"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -201,6 +205,7 @@
                     </view>
                     <connections>
                         <outlet property="flipCountLabel" destination="e5b-oF-Gxj" id="o1x-SV-Rj8"/>
+                        <outlet property="newGameButton" destination="S4a-pp-o0a" id="0WT-Co-5zm"/>
                         <outletCollection property="cardButtons" destination="CJO-ct-8K3" collectionClass="NSMutableArray" id="rEi-9y-PYZ"/>
                         <outletCollection property="cardButtons" destination="4g3-H0-rhW" collectionClass="NSMutableArray" id="gwz-tU-bPX"/>
                         <outletCollection property="cardButtons" destination="onj-rf-Qg6" collectionClass="NSMutableArray" id="JJu-ea-llJ"/>

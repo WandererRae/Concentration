@@ -5,10 +5,17 @@
 //  Created by Shannon on 3/2/18.
 //  Copyright © 2018 Shannon. All rights reserved.
 //
+//  In which the playing cards come into existence
 
 import Foundation
 
 struct Card: Hashable {
+
+    //  TODO: The deck is chosen
+    
+    //  TODO: The cards have an appearance
+    
+    //  MARK: The cards gain face values
     var hashValue: Int {
         return identifier
     }
@@ -31,4 +38,5 @@ struct Card: Hashable {
     init () {
         self.identifier = Card.getUniqueIdentifier()
     }
+
 }
