@@ -13,8 +13,9 @@ struct Card: Hashable {
 
     //  TODO: The deck is chosen
     
-    //  TODO: The cards have an appearance
     
+    //  TODO: The cards have an appearance
+
     //  MARK: The cards gain face values
     var hashValue: Int {
         return identifier
